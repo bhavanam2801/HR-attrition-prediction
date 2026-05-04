@@ -9,7 +9,7 @@ import pandas as pd
 st.title('👩‍💼 HR Attrition Prediction App')
 
 # load model and scaler
-model = pickle.load(open('svm_model (1).pkl','rb'))
+model = pickle.load(open('svm_model.pkl','rb'))
 scaler = pickle.load(open('scaler.pkl','rb'))
 
 # input features
